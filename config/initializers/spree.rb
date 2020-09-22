@@ -26,6 +26,9 @@ Spree.dependencies do |dependencies|
   # dependencies.cart_add_item_service = 'MyNewAwesomeService'
 end
 
+# Spree::Frontend::Config[:locale] = 'pt-BR'
+# Spree::Backend::Config[:locale] = 'pt-BR'
+
 # Spree::Api::Dependencies.storefront_cart_serializer = 'MyRailsApp::CartSerializer'
 
 Spree.user_class = "Spree::User"
